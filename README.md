@@ -1,5 +1,14 @@
 <a name="readme-top"></a>
 
+<div align="center">
+
+  <img src="./murple_logo.png" alt="logo" width="140"  height="auto" />
+  <br/>
+
+  <h3><b>To do list</b></h3>
+
+</div>
+
 <!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
@@ -163,4 +172,4 @@ I would like to thank microverse for the great resources shared.
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](https://https://github.com/felixDev22/math-app1/blob/setup/LICENSE) licensed.
+This project is [MIT]licensed.
