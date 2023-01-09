@@ -14,7 +14,7 @@
 # 📗 Table of Contents
 
 - [📗 Table of Contents](#-table-of-contents)
-- [📖 Math Magician project ](#-math-magician-project-)
+- [📖 Math App project ](#-math-App-project-)
   - [🛠 Built With ](#-built-with-)
     - [Key Features ](#key-features-)
   - [🚀 Live Demo ](#-live-demo-)
