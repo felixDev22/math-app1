@@ -5,6 +5,7 @@
   padding: 0;
   box-sizing: border-box;
   list-style: none;
+  border: none;
 }
 
 .cal-section {
@@ -13,4 +14,18 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.row2 {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+}
+
+.btn {
+  padding: 40px;
 }

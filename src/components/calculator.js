@@ -43,7 +43,7 @@ export default class Calculator extends React.Component {
               <button className='btn'>1</button>
               <button className='btn'>+</button>
             </li>
-            <li className='row'>
+            <li className='row2'>
               <button className='btn'>0</button>
               <button className='btn'>.</button>
               <button className='btn'>=</button>

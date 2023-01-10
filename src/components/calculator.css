@@ -4,6 +4,7 @@
   --orange-color: #f5913e;
   --grey2: #c8c8c8;
   --text: #000;
+  --text2: #fff;
 }
 
 .cal {
@@ -17,4 +18,7 @@
   width: 100%;
   padding: 20px;
   background: var(--input-color);
+  text-align: right;
+  font-size: 1.2rem;
+  color: var(--text2);
 }
