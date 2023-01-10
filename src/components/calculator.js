@@ -14,7 +14,7 @@ class Calculator extend React.Component {
         <div className='displayArea'>
           <input className="cal-input" type="text" value='0'></input>
         </div>
-        <div className='operator'>
+         
         <ul className="rows">
           <li className="row">
             <button className='btn'>AC</button>
@@ -22,15 +22,40 @@ class Calculator extend React.Component {
               <button className='btn'>%</button>
                <button className='btn'>&#247</button>
           </li>
-          <ul className="rows">
-          <li className="row">
+             <li className="row">
             <button className='btn'>7</button>
              <button className='btn'>8</button>
               <button className='btn'>9</button>
                <button className='btn'>X</button>
           </li>
+               <li className="row">
+            <button className='btn'>4</button>
+             <button className='btn'>5</button>
+              <button className='btn'>6</button>
+               <button className='btn'>-</button>
+          </li>
+                <li className="row">
+            <button className='btn'>3</button>
+             <button className='btn'>2</button>
+              <button className='btn'>1</button>
+               <button className='btn'>+</button>
+          </li>
+                 <li className="row">
+            <button className='btn'>0</button>
+             <button className='btn'>.</button>
+              <button className='btn'>=</button>
+          
+          </li>
+
+
+
+
+
         </ul>
-        </div>
+          
+       
+       
+      </div>
         
 
 
