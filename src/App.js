@@ -1,4 +1,5 @@
 /* eslint-disable jsx-quotes */
+/* eslint-disable import/extensions */
 
 import React from 'react';
 import './App.css';
