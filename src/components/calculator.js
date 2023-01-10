@@ -1,6 +1,9 @@
+/* eslint-disable react/self-closing-comp */
+/* eslint-disable react/button-has-type */
+/* eslint-disable jsx-quotes */
 import React from 'react';
 
-import './calculator.css';
+import './Calculator.css';
 
 export default class Calculator extends React.Component {
   constructor(props) {

@@ -1,1 +1,14 @@
-in
+:root {
+  --input-color: #858793;
+  --grey-color: #e0e0e0;
+  --orange-color: #f5913e;
+  --grey2: #c8c8c8;
+  --text: #000;
+}
+
+.cal {
+  background: var(--grey2);
+  min-width: 540px;
+  height: auto;
+  border: solid 1px #000;
+}

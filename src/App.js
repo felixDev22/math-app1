@@ -14,7 +14,7 @@ class App extends React.Component {
   render() {
     return (
       <div className='App'>
-        <header className='Cal-header'>
+        <header className='cal-section'>
           <Calculator />
         </header>
       </div>
