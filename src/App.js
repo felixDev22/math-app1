@@ -1,7 +1,5 @@
-/* eslint-disable react/self-closing-comp */
 /* eslint-disable jsx-quotes */
 import React from 'react';
-
 import './App.css';
 import Calculator from './components/Calculator';
 
