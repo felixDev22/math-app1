@@ -2,8 +2,8 @@ import React from 'react';
 
 import './calculator.css';
 
-class Calculator extend React.Component {
-  constructor(props){
+export default class Calculator extends React.Component {
+  constructor(props) {
     super(props);
     this.state = {};
   }
@@ -12,78 +12,42 @@ class Calculator extend React.Component {
     return (
       <div className='cal'>
         <div className='displayArea'>
-          <input className="cal-input" type="text" value='0'></input>
+          <input className='cal-input' type='text' value='0'></input>
         </div>
-         
-        <ul className="rows">
-          <li className="row">
-            <button className='btn'>AC</button>
-             <button className='btn'>+/-</button>
+        <div className='operators'>
+          <ul className='rows'>
+            <li className='row'>
+              <button className='btn'>AC</button>
+              <button className='btn'>+/-</button>
               <button className='btn'>%</button>
-               <button className='btn'>&#247</button>
-          </li>
-             <li className="row">
-            <button className='btn'>7</button>
-             <button className='btn'>8</button>
+              <button className='btn'>&#247</button>
+            </li>
+            <li className='row'>
+              <button className='btn'>7</button>
+              <button className='btn'>8</button>
               <button className='btn'>9</button>
-               <button className='btn'>X</button>
-          </li>
-               <li className="row">
-            <button className='btn'>4</button>
-             <button className='btn'>5</button>
+              <button className='btn'>X</button>
+            </li>
+            <li className='row'>
+              <button className='btn'>4</button>
+              <button className='btn'>5</button>
               <button className='btn'>6</button>
-               <button className='btn'>-</button>
-          </li>
-                <li className="row">
-            <button className='btn'>3</button>
-             <button className='btn'>2</button>
+              <button className='btn'>-</button>
+            </li>
+            <li className='row'>
+              <button className='btn'>3</button>
+              <button className='btn'>2</button>
               <button className='btn'>1</button>
-               <button className='btn'>+</button>
-          </li>
-                 <li className="row">
-            <button className='btn'>0</button>
-             <button className='btn'>.</button>
+              <button className='btn'>+</button>
+            </li>
+            <li className='row'>
+              <button className='btn'>0</button>
+              <button className='btn'>.</button>
               <button className='btn'>=</button>
-          
-          </li>
-
-
-
-
-
-        </ul>
-          
-       
-       
+            </li>
+          </ul>
+        </div>
       </div>
-        
-
-
-
-
-
-
-
-
-
-
-    )
-
-
-
-
-
-
-
-
-
+    );
   }
-
-
-
-
-
-
-
-
 }
