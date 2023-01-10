@@ -12,3 +12,9 @@
   height: auto;
   border: solid 1px #000;
 }
+
+.cal-input {
+  width: 100%;
+  padding: 20px;
+  background: var(--input-color);
+}
