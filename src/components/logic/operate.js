@@ -8,7 +8,7 @@ export default function operate(numOne, numTwo, operation) {
     return one.plus(two).toString(); // ADD
   }
   if (operation === '-') {
-    return one.minus(two).toString(); // Substract
+    return one.minus(two).toString(); // Subtract
   }
   if (operation === 'x') {
     return one.times(two).toString(); // Multiply
