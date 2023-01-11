@@ -2,6 +2,7 @@
   --input-color: #858793;
   --grey-color: #e0e0e0;
   --orange-color: #f5913e;
+  --orange-hover: #d2660d;
   --grey2: #c8c8c8;
   --text: #000;
   --text2: #fff;
@@ -42,6 +43,14 @@
   border-bottom: 1.5px solid var(--grey2);
 }
 
+.btn:hover {
+  background-color: #afafaf;
+}
+
 .btn-2 {
   background-color: var(--orange-color);
+}
+
+.btn-2:hover {
+  background-color: var(--orange-hover);
 }
