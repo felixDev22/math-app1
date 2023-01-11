@@ -12,7 +12,7 @@ export default class Calculator extends Component {
     return (
       <div className="cal">
         <div className="displayArea">
-          <input className="cal-input" type="text" value="0" />
+          <input className="cal-input" type="text" value="0" readOnly />
         </div>
         <div className="operators">
           <ul className="rows">
