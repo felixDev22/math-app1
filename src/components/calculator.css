@@ -1,0 +1,47 @@
+:root {
+  --input-color: #858793;
+  --grey-color: #e0e0e0;
+  --orange-color: #f5913e;
+  --grey2: #c8c8c8;
+  --text: #000;
+  --text2: #fff;
+}
+
+.cal {
+  background: var(--grey2);
+  min-width: 540px;
+  height: auto;
+  border: solid 1px #c8c8c8;
+}
+
+.cal-input {
+  width: 100%;
+  padding: 30px;
+  background: var(--input-color);
+  text-align: right;
+  font-size: 1.5rem;
+  color: var(--text2);
+}
+
+.row {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.row2 {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+}
+
+.btn,
+.btn-2 {
+  padding: 30px;
+  background-color: #e4e4e4;
+  font-size: 1.5rem;
+  border-right: 1.5px solid var(--grey2);
+  border-bottom: 1.5px solid var(--grey2);
+}
+
+.btn-2 {
+  background-color: var(--orange-color);
+}
