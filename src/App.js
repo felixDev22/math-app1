@@ -1,6 +1,6 @@
 import React from 'react';
 
-import CalculatorUI from './components/Calculator';
+import CalculatorUI from './components/calculator';
 import './App.css';
 
 class App extends React.Component {
