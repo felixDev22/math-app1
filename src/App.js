@@ -1,9 +1,6 @@
-/* eslint-disable jsx-quotes */
-/* eslint-disable import/extensions */
-
 import React from 'react';
 import './App.css';
-import Calculator from './components/Calculator';
+import CalculatorUI from './components/Calculator';
 
 class App extends React.Component {
   constructor(props) {
@@ -13,9 +10,9 @@ class App extends React.Component {
 
   render() {
     return (
-      <div className='App'>
-        <header className='cal-section'>
-          <Calculator />
+      <div className="App">
+        <header className="cal-section">
+          <CalculatorUI />
         </header>
       </div>
     );
