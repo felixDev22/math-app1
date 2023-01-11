@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Calculator from './components/Calculator';
+import CalculatorUI from './components/Calculator';
 import './App.css';
 
 class App extends React.Component {
@@ -13,7 +13,7 @@ class App extends React.Component {
     return (
       <div className="App">
         <header className="cal-section">
-          <Calculator />
+          <CalculatorUI />
         </header>
       </div>
     );

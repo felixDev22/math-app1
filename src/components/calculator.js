@@ -2,7 +2,7 @@ import React from 'react';
 
 import './Calculator.css';
 
-class Calc extends React.Component {
+class CalculatorUI extends React.Component {
   constructor(props) {
     super(props);
 
@@ -91,4 +91,4 @@ class Calc extends React.Component {
   }
 }
 
-export default Calc;
+export default CalculatorUI;
