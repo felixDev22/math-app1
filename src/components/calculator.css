@@ -8,6 +8,10 @@
   --text2: #fff;
 }
 
+body {
+  background: var(--grey2);
+}
+
 .cal {
   background: var(--grey2);
   min-width: 540px;

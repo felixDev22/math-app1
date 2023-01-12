@@ -4,7 +4,7 @@ import calculate from './logic/calculate';
 import './calculator.css';
 
 const CalculatorUI = () => {
-  const [calcState, setCalcState] = useState({
+  const [calculateState, setCalculateState] = useState({
     total: null,
     next: null,
     operation: null,
@@ -12,14 +12,14 @@ const CalculatorUI = () => {
 
   // Event handler
   const clickHandler = (e) => {
-    const result = calculate(calcState, e.target.textContent);
-    setCalcState((prevState) => ({
-      ...prevState,
+    const result = calculate(calculateState, e.target.textContent);
+    setCalculateState((initialState) => ({
+      ...initialState,
       ...result,
     }));
   };
 
-  const { total, next } = calcState;
+  const { total, next } = calculateState;
 
   return (
     <div className="cal">
