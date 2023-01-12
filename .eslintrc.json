@@ -23,5 +23,6 @@
   "ignorePatterns": [
     "dist/",
     "build/"
-  ]
+  ],
+  "eslint.workingDirectories": ["./front", "./back", "./shared"]
 }
