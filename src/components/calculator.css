@@ -2,6 +2,7 @@
   --input-color: #858793;
   --grey-color: #e0e0e0;
   --orange-color: #f5913e;
+  --orange-hover: #d2660d;
   --grey2: #c8c8c8;
   --text: #000;
   --text2: #fff;
@@ -38,10 +39,18 @@
   padding: 30px;
   background-color: #e4e4e4;
   font-size: 1.5rem;
-  border-right: 1.5px solid var(--grey2);
-  border-bottom: 1.5px solid var(--grey2);
+  border-right: 1.6px solid var(--grey2);
+  border-bottom: 1.6px solid var(--grey2);
+}
+
+.btn:hover {
+  background-color: #afafaf;
 }
 
 .btn-2 {
   background-color: var(--orange-color);
+}
+
+.btn-2:hover {
+  background-color: var(--orange-hover);
 }
