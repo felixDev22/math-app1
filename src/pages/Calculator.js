@@ -22,6 +22,7 @@ const CalculatorUI = () => {
   const { total, next } = calculateState;
 
   return (
+    // <h2>Let's do Math!</h2>
     <div className="cal">
       <div className="displayArea">
         <p className="cal-input" type="text">{ next || total || 0}</p>
