@@ -7,7 +7,7 @@ const Quote = () => (
     <span>
       <i className="fa-sharp fa-solid fa-quote-left" />
     </span>
-    <p>
+    <p className={classes.quote_words}>
       It is not knowledge, but the act of learning, not possession but the act
       of getting there, which grants the greatest enjoyment.
       <br />
