@@ -1,24 +1,41 @@
-/* stylelint-disable no-missing-end-of-source-newline */
+
+:root {
+  --orange-color: #f5913e;
+  --orange-hover: #d2660d;
+}
+
 .quote_section {
   margin-top: 10%;
   padding: 20px 10%;
   display: flex;
   flex-direction: column;
+ 
 }
 
 h2 {
   display: flex;
   flex-direction: flex-start;
   font-size: 3rem;
+  position: relative;
+  z-index: 3;
+  color: var(--orange-hover);
 }
 
 span {
-  color: var(--orange-hover);
-  margin-right: 20px;
+  color: var(--orange-color);
+  float: left;
+  opacity: 0.4;
+  font-size: 12rem;
+  position: absolute;
+  margin-top: -160px;
+  z-index: 1;
 }
 
 p {
   margin-top: 20px;
-  font-size: 1.3rem;
-  line-height: 1.8rem;
+  font-size: 2.6rem;
+  line-height: 3.3rem;
+  position: relative;
+  z-index: 3;
+  color: rgb(52, 50, 50);
 }
