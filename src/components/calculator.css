@@ -13,10 +13,7 @@ body {
 }
 
 .cal-section {
-  margin-top: 10%;
-  margin-bottom: 10%;
-  padding: 20px 10%;
-  float: right;
+  padding: 8% 10%;
 }
 
 .cal {
@@ -24,6 +21,8 @@ body {
   width: 540px;
   height: auto;
   border: solid 1px #c8c8c8;
+  float: right;
+  margin-top: -5%;
 }
 
 .cal-input {
