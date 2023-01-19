@@ -1,6 +1,6 @@
-import React from "react";
+import React from 'react';
 
-import classes from "./Quote.module.css";
+import classes from './Quote.module.css';
 
 const Quote = () => (
   <section className={classes.quote_section}>
