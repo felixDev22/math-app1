@@ -1,5 +1,5 @@
 :root {
-  --input-color: #858793;
+  --input-color: #595f7d;
   --grey-color: #e0e0e0;
   --orange-color: #f5913e;
   --orange-hover: #d2660d;
@@ -23,6 +23,7 @@ body {
   border: solid 1px #c8c8c8;
   float: right;
   margin-top: -5%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .cal-input {
@@ -54,11 +55,11 @@ body {
 }
 
 .btn:hover {
-  background-color: #afafaf;
+  background-color: #77abee;
 }
 
 .btn-2 {
-  background-color: var(--orange-color);
+  background-color: rgb(9, 113, 233);
 }
 
 .btn-2:hover {
