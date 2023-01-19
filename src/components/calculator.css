@@ -12,6 +12,13 @@ body {
   background: var(--grey2);
 }
 
+.cal-section {
+  margin-top: 10%;
+  margin-bottom: 10%;
+  padding: 20px 10%;
+  float: right;
+}
+
 .cal {
   background: var(--grey2);
   width: 540px;

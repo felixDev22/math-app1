@@ -23,7 +23,7 @@ const CalculatorUI = () => {
 
   return (
     <div className="cal-section">
-    <h2>Let's do some math!</h2>
+      <h2>Let&#39;s do some math!</h2>
       <div className="cal">
         <div className="displayArea">
           <p
