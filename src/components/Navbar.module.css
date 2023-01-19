@@ -11,7 +11,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: linear-gradient(90deg, rgba(4,30,138,1) 24%, rgb(2, 147, 192) 63%, rgba(0,136,244,1) 100%);
+  background: linear-gradient(90deg, rgba(4, 30, 138, 1) 24%, rgb(2, 147, 192) 63%, rgba(0, 136, 244, 1) 100%);
   width: 100%;
   height: 16vh;
   padding: 20px 10%;
@@ -21,13 +21,13 @@
   color: #fff;
 }
 
-span{
+span {
   color: #00c8ff;
   margin-right: 20px;
 }
 
 .navlinks ul {
- display: flex;
+  display: flex;
 }
 
 .navlinks ul li {
