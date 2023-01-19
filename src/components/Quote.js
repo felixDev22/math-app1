@@ -4,7 +4,7 @@ import classes from './Quote.module.css';
 const Quote = () => (
   <section className={classes.quote_section}>
     <h2>Quote</h2>
-    <span>
+    <span className={classes.quote_icon}>
       <i className="fa-sharp fa-solid fa-quote-left" />
     </span>
     <p className={classes.quote_words}>

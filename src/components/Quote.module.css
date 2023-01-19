@@ -21,8 +21,8 @@ h2 {
   color: var(--blue-color);
 }
 
-span {
-  color: var(--orange-color);
+.quote_icon {
+  color: #6bb6ef;
   float: left;
   opacity: 0.4;
   font-size: 12rem;
