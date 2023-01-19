@@ -12,11 +12,3 @@ body {
   background: #f7dcb5;
   font-family: "OpenSan", sans-serif;
 }
-
-.cal-section {
-  margin-top: 10%;
-  margin-bottom: 10%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}

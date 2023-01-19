@@ -14,7 +14,7 @@ body {
 
 .cal {
   background: var(--grey2);
-  min-width: 540px;
+  width: 540px;
   height: auto;
   border: solid 1px #c8c8c8;
 }

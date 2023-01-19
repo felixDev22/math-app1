@@ -22,21 +22,37 @@ const CalculatorUI = () => {
   const { total, next } = calculateState;
 
   return (
-    // <h2>Let's do Math!</h2>
     <div className="cal">
       <div className="displayArea">
-        <p className="cal-input" type="text">{ next || total || 0}</p>
+        <p
+          className="cal-input"
+          type="text"
+        >
+          {next || total || 0}
+        </p>
       </div>
       <div className="operators">
         <ul className="rows">
           <li className="row">
-            <button type="button" className="btn" onClick={clickHandler}>
+            <button
+              type="button"
+              className="btn"
+              onClick={clickHandler}
+            >
               AC
             </button>
-            <button type="button" className="btn" onClick={clickHandler}>
+            <button
+              type="button"
+              className="btn"
+              onClick={clickHandler}
+            >
               +/-
             </button>
-            <button type="button" className="btn" onClick={clickHandler}>
+            <button
+              type="button"
+              className="btn"
+              onClick={clickHandler}
+            >
               %
             </button>
             <button
@@ -48,13 +64,25 @@ const CalculatorUI = () => {
             </button>
           </li>
           <li className="row">
-            <button type="button" className="btn" onClick={clickHandler}>
+            <button
+              type="button"
+              className="btn"
+              onClick={clickHandler}
+            >
               7
             </button>
-            <button type="button" className="btn" onClick={clickHandler}>
+            <button
+              type="button"
+              className="btn"
+              onClick={clickHandler}
+            >
               8
             </button>
-            <button type="button" className="btn" onClick={clickHandler}>
+            <button
+              type="button"
+              className="btn"
+              onClick={clickHandler}
+            >
               9
             </button>
             <button
@@ -66,13 +94,25 @@ const CalculatorUI = () => {
             </button>
           </li>
           <li className="row">
-            <button type="button" className="btn" onClick={clickHandler}>
+            <button
+              type="button"
+              className="btn"
+              onClick={clickHandler}
+            >
               4
             </button>
-            <button type="button" className="btn" onClick={clickHandler}>
+            <button
+              type="button"
+              className="btn"
+              onClick={clickHandler}
+            >
               5
             </button>
-            <button type="button" className="btn" onClick={clickHandler}>
+            <button
+              type="button"
+              className="btn"
+              onClick={clickHandler}
+            >
               6
             </button>
             <button
@@ -84,13 +124,25 @@ const CalculatorUI = () => {
             </button>
           </li>
           <li className="row">
-            <button type="button" className="btn" onClick={clickHandler}>
+            <button
+              type="button"
+              className="btn"
+              onClick={clickHandler}
+            >
               1
             </button>
-            <button type="button" className="btn" onClick={clickHandler}>
+            <button
+              type="button"
+              className="btn"
+              onClick={clickHandler}
+            >
               2
             </button>
-            <button type="button" className="btn" onClick={clickHandler}>
+            <button
+              type="button"
+              className="btn"
+              onClick={clickHandler}
+            >
               3
             </button>
             <button
@@ -102,10 +154,18 @@ const CalculatorUI = () => {
             </button>
           </li>
           <li className="row2">
-            <button type="button" className="btn" onClick={clickHandler}>
+            <button
+              type="button"
+              className="btn"
+              onClick={clickHandler}
+            >
               0
             </button>
-            <button type="button" className="btn" onClick={clickHandler}>
+            <button
+              type="button"
+              className="btn"
+              onClick={clickHandler}
+            >
               .
             </button>
             <button
