@@ -1,11 +1,12 @@
 /* eslint-disable import/extensions */
 /* eslint-disable import/no-extraneous-dependencies */
+
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Home from './pages/Home';
-import Quote from './pages/Quote';
-import Nav from './pages/Navbar';
-import CalculatorUI from './pages/calculator';
+import Home from './components/Home';
+import Quote from './components/Quote';
+import Nav from './components/Navbar';
+import CalculatorUI from './components/calculator';
 import './App.css';
 
 class App extends React.Component {
