@@ -8,7 +8,8 @@ const Nav = () => (
   <header>
     <nav className={classes.navbar}>
       <h2 className={classes.logo}>
-        Math Magicians
+        <span>Math</span>
+        Magicians
       </h2>
       <div className={classes.navlinks}>
         <ul>

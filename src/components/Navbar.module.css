@@ -21,6 +21,11 @@
   color: #fff;
 }
 
+span{
+  color: #00c8ff;
+  margin-right: 20px;
+}
+
 .navlinks ul {
  display: flex;
 }
