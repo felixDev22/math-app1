@@ -11,7 +11,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: linear-gradient(90deg, rgba(162,30,13,1) 26%, rgba(235,88,8,1) 78%, rgba(255,149,0,1) 100%);
+  background: linear-gradient(90deg, rgba(4,30,138,1) 24%, rgb(2, 147, 192) 63%, rgba(0,136,244,1) 100%);
   width: 100%;
   height: 15%;
   padding: 20px 10%;
@@ -32,4 +32,9 @@
   padding: 0 30px;
   color: #fff;
   cursor: pointer;
-} 
+}
+
+.navlinks {
+  color: #fff;
+  text-decoration: none;
+}

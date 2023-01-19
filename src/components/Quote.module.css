@@ -2,6 +2,7 @@
 :root {
   --orange-color: #f5913e;
   --orange-hover: #d2660d;
+  --blue-color: #001ca3;
 }
 
 .quote_section {
@@ -17,7 +18,7 @@ h2 {
   font-size: 3rem;
   position: relative;
   z-index: 3;
-  color: var(--orange-hover);
+  color: var(--blue-color);
 }
 
 span {
