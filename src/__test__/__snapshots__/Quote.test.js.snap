@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<section
+  className="quote_section"
+>
+  <h2>
+    Quote
+  </h2>
+  <span
+    className="quote_icon"
+  >
+    <i
+      className="fa-sharp fa-solid fa-quote-left"
+    />
+  </span>
+  <p
+    className="quote_words"
+  >
+    It is not knowledge, but the act of learning, not possession but the act of getting there, which grants the greatest enjoyment.
+    <br />
+    <b>
+      Carl Friedrich Gauss.
+    </b>
+  </p>
+</section>
+`;
