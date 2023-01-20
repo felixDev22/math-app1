@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&display=swap");
+
+:root {
+  --input-color: #858793;
+  --grey-color: #e0e0e0;
+  --orange-color: #f5913e;
+  --orange-hover: #d2660d;
+  --blue-color: #001ca3;
+}
+
+.home_section {
+  margin-top: 10%;
+  padding: 20px 10%;
+  display: flex;
+  flex-direction: column;
+}
+
+h2 {
+  display: flex;
+  align-items: flex-start;
+  font-size: 2.5rem;
+}
+
+p {
+  margin-top: 20px;
+  font-size: 1.3rem;
+  line-height: 2.2rem;
+}
