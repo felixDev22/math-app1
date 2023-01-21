@@ -27,9 +27,9 @@ const CalculatorUI = () => {
       <div className="cal">
         <div className="displayArea">
           <p
+            data-testid="total_value"
             className="cal-input"
-            type="text"
-          >
+            type="text">
             {next || total || 0}
           </p>
         </div>
@@ -39,29 +39,25 @@ const CalculatorUI = () => {
               <button
                 type="button"
                 className="btn"
-                onClick={clickHandler}
-              >
+                onClick={clickHandler}>
                 AC
               </button>
               <button
                 type="button"
                 className="btn"
-                onClick={clickHandler}
-              >
+                onClick={clickHandler}>
                 +/-
               </button>
               <button
                 type="button"
                 className="btn"
-                onClick={clickHandler}
-              >
+                onClick={clickHandler}>
                 %
               </button>
               <button
                 type="button"
                 className="btn-2"
-                onClick={clickHandler}
-              >
+                onClick={clickHandler}>
                 &#247;
               </button>
             </li>
@@ -69,29 +65,25 @@ const CalculatorUI = () => {
               <button
                 type="button"
                 className="btn"
-                onClick={clickHandler}
-              >
+                onClick={clickHandler}>
                 7
               </button>
               <button
                 type="button"
                 className="btn"
-                onClick={clickHandler}
-              >
+                onClick={clickHandler}>
                 8
               </button>
               <button
                 type="button"
                 className="btn"
-                onClick={clickHandler}
-              >
+                onClick={clickHandler}>
                 9
               </button>
               <button
                 type="button"
                 className="btn-2"
-                onClick={clickHandler}
-              >
+                onClick={clickHandler}>
                 x
               </button>
             </li>
@@ -99,29 +91,25 @@ const CalculatorUI = () => {
               <button
                 type="button"
                 className="btn"
-                onClick={clickHandler}
-              >
+                onClick={clickHandler}>
                 4
               </button>
               <button
                 type="button"
                 className="btn"
-                onClick={clickHandler}
-              >
+                onClick={clickHandler}>
                 5
               </button>
               <button
                 type="button"
                 className="btn"
-                onClick={clickHandler}
-              >
+                onClick={clickHandler}>
                 6
               </button>
               <button
                 type="button"
                 className="btn-2"
-                onClick={clickHandler}
-              >
+                onClick={clickHandler}>
                 -
               </button>
             </li>
@@ -129,29 +117,25 @@ const CalculatorUI = () => {
               <button
                 type="button"
                 className="btn"
-                onClick={clickHandler}
-              >
+                onClick={clickHandler}>
                 1
               </button>
               <button
                 type="button"
                 className="btn"
-                onClick={clickHandler}
-              >
+                onClick={clickHandler}>
                 2
               </button>
               <button
                 type="button"
                 className="btn"
-                onClick={clickHandler}
-              >
+                onClick={clickHandler}>
                 3
               </button>
               <button
                 type="button"
                 className="btn-2"
-                onClick={clickHandler}
-              >
+                onClick={clickHandler}>
                 +
               </button>
             </li>
@@ -159,22 +143,19 @@ const CalculatorUI = () => {
               <button
                 type="button"
                 className="btn"
-                onClick={clickHandler}
-              >
+                onClick={clickHandler}>
                 0
               </button>
               <button
                 type="button"
                 className="btn"
-                onClick={clickHandler}
-              >
+                onClick={clickHandler}>
                 .
               </button>
               <button
                 type="button"
                 className="btn-2"
-                onClick={clickHandler}
-              >
+                onClick={clickHandler}>
                 =
               </button>
             </li>
