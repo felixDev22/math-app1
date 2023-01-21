@@ -27,6 +27,7 @@ const CalculatorUI = () => {
       <div className="cal">
         <div className="displayArea">
           <p
+            data-testid="total_value"
             className="cal-input"
             type="text"
           >
